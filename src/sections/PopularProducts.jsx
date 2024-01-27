@@ -4,7 +4,10 @@ import PopularProductCard from "../components/PopularProductCard";
 
 const PopularProducts = () => {
   return (
-    <section id="products" className="border-2 border-red-500 max-sm:mt-12 ">
+    <section
+      id="products"
+      className="border-2 border-red-500 max-sm:mt-12 max-container"
+    >
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
           Our
